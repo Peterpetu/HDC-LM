@@ -1,0 +1,148 @@
+=== S5 quality run ===
+model: RLMConfig(vocab_size=8192, d_model=192, n_layers=1, n_heads=6, P=None, beta=1.0, beta_readout=6.0, beta_n=0.05, n_settle=20, eta=0.3, rope_base=10000.0, gamma_min=0.0, gamma_max=0.99, delta_rule=False, key_full=False, deep_supervision=True, gate_g0=1.0, gate_g1=0.5, gate_lo=0.1, gate_hi=3.0, gate_ema=0.01)
+train: TrainConfig(steps=2500, batch=32, seq_len=96, lr=0.002, warmup=40, grad_clip=1.0, eval_every=50, eval_iters=20, diag_every=500, gen_every=350, gen_prompt='Once upon a time', gen_new=55, ckpt_every=0, seed=0, device='cuda', runs_dir='runs')
+
+=== RIPPLE (backprop-free — THE REAL MODEL), with generation samples ===
+13:28:53 [run:ripple_S5] dir=runs\ripple_S5 src=e678265ee5d4d715
+13:28:53 [RIPPLE] params=1.76M safe_beta_M~0.357 beta=1.0
+13:28:54 [RIPPLE] step    1 train_nll 9.0313 val_nll 9.0286 val_bpt 13.0255 mu*Cbar=0.09 3.6k tok/s
+13:29:08 [RIPPLE] step   50 train_nll 5.6101 val_nll 5.4034 val_bpt 7.7955 mu*Cbar=2.98 9.9k tok/s
+13:29:23 [RIPPLE] step  100 train_nll 4.6571 val_nll 4.5080 val_bpt 6.5037 mu*Cbar=3.72 10.0k tok/s
+13:29:38 [RIPPLE] step  150 train_nll 3.9253 val_nll 4.1606 val_bpt 6.0025 mu*Cbar=3.90 10.2k tok/s
+13:29:53 [RIPPLE] step  200 train_nll 3.8582 val_nll 3.9900 val_bpt 5.7563 mu*Cbar=3.94 10.3k tok/s
+13:30:07 [RIPPLE] step  250 train_nll 3.8493 val_nll 3.8678 val_bpt 5.5800 mu*Cbar=3.91 10.3k tok/s
+13:30:22 [RIPPLE] step  300 train_nll 3.7582 val_nll 3.7876 val_bpt 5.4644 mu*Cbar=3.86 10.3k tok/s
+13:30:37 [RIPPLE] step  350 train_nll 3.6360 val_nll 3.7422 val_bpt 5.3988 mu*Cbar=3.81 10.3k tok/s
+13:30:37    ↳ gen: "Once upon a time, there was a little girl named Amy had a very good friends. She was not to take the way and made fun together.Once upon a time, there was a lit…"
+13:30:52 [RIPPLE] step  400 train_nll 3.6938 val_nll 3.7159 val_bpt 5.3609 mu*Cbar=3.74 10.3k tok/s
+13:31:06 [RIPPLE] step  450 train_nll 3.6724 val_nll 3.6521 val_bpt 5.2689 mu*Cbar=3.70 10.4k tok/s
+13:31:20 [RIPPLE] step  500 train_nll 3.5404 val_nll 3.6168 val_bpt 5.2179 mu*Cbar=3.65 10.5k tok/s
+13:31:20 [RIPPLE] step  500 P1 cos_overall=0.660 settle_iters~18.2 iters~entropy r=-0.15
+13:31:34 [RIPPLE] step  550 train_nll 3.4784 val_nll 3.5847 val_bpt 5.1716 mu*Cbar=3.60 10.5k tok/s
+13:31:48 [RIPPLE] step  600 train_nll 3.7095 val_nll 3.5365 val_bpt 5.1021 mu*Cbar=3.56 10.5k tok/s
+13:32:01 [RIPPLE] step  650 train_nll 3.3859 val_nll 3.5464 val_bpt 5.1164 mu*Cbar=3.52 10.6k tok/s
+13:32:16 [RIPPLE] step  700 train_nll 3.2891 val_nll 3.5073 val_bpt 5.0600 mu*Cbar=3.50 10.6k tok/s
+13:32:16    ↳ gen: "Once upon a time, there was a little boy named Tom was a little girl named Tom. Tim was sad because she had to play with his friends. They had fun and jump, a p…"
+13:32:30 [RIPPLE] step  750 train_nll 3.5434 val_nll 3.4577 val_bpt 4.9885 mu*Cbar=3.47 10.6k tok/s
+13:32:43 [RIPPLE] step  800 train_nll 3.3876 val_nll 3.4217 val_bpt 4.9365 mu*Cbar=3.44 10.7k tok/s
+13:32:56 [RIPPLE] step  850 train_nll 3.5784 val_nll 3.4472 val_bpt 4.9732 mu*Cbar=3.42 10.7k tok/s
+13:33:10 [RIPPLE] step  900 train_nll 3.4080 val_nll 3.4490 val_bpt 4.9758 mu*Cbar=3.39 10.8k tok/s
+13:33:24 [RIPPLE] step  950 train_nll 3.4949 val_nll 3.4216 val_bpt 4.9364 mu*Cbar=3.38 10.8k tok/s
+13:33:38 [RIPPLE] step 1000 train_nll 3.3385 val_nll 3.3899 val_bpt 4.8906 mu*Cbar=3.36 10.8k tok/s
+13:33:38 [RIPPLE] step 1000 P1 cos_overall=0.653 settle_iters~18.7 iters~entropy r=-0.18
+13:33:52 [RIPPLE] step 1050 train_nll 3.1647 val_nll 3.3487 val_bpt 4.8311 mu*Cbar=3.34 10.8k tok/s
+13:33:53    ↳ gen: "Once upon a time, there was a little girl named Molly. She liked to find a toy dog. One day, Tom found an orange frog loved to play in the park. One day, she fo…"
+13:34:07 [RIPPLE] step 1100 train_nll 3.3242 val_nll 3.3423 val_bpt 4.8219 mu*Cbar=3.32 10.8k tok/s
+13:34:21 [RIPPLE] step 1150 train_nll 3.2768 val_nll 3.3300 val_bpt 4.8042 mu*Cbar=3.32 10.8k tok/s
+13:34:36 [RIPPLE] step 1200 train_nll 3.1563 val_nll 3.3457 val_bpt 4.8268 mu*Cbar=3.31 10.7k tok/s
+13:34:51 [RIPPLE] step 1250 train_nll 3.1744 val_nll 3.3654 val_bpt 4.8553 mu*Cbar=3.30 10.7k tok/s
+13:35:05 [RIPPLE] step 1300 train_nll 3.3455 val_nll 3.3070 val_bpt 4.7710 mu*Cbar=3.28 10.7k tok/s
+13:35:20 [RIPPLE] step 1350 train_nll 3.1132 val_nll 3.3480 val_bpt 4.8301 mu*Cbar=3.27 10.7k tok/s
+13:35:35 [RIPPLE] step 1400 train_nll 3.1476 val_nll 3.3320 val_bpt 4.8070 mu*Cbar=3.25 10.7k tok/s
+13:35:35    ↳ gen: "Once upon a time, there was a little girl named Lily. She had a red car in the park. One day, Tim saw a big box. Max put the car and said, "Yes, it is my friend…"
+13:35:50 [RIPPLE] step 1450 train_nll 3.1315 val_nll 3.2912 val_bpt 4.7481 mu*Cbar=3.24 10.7k tok/s
+13:36:04 [RIPPLE] step 1500 train_nll 3.1161 val_nll 3.2835 val_bpt 4.7371 mu*Cbar=3.23 10.7k tok/s
+13:36:05 [RIPPLE] step 1500 P1 cos_overall=0.655 settle_iters~18.7 iters~entropy r=-0.10
+13:36:19 [RIPPLE] step 1550 train_nll 3.0802 val_nll 3.2322 val_bpt 4.6631 mu*Cbar=3.22 10.7k tok/s
+13:36:33 [RIPPLE] step 1600 train_nll 3.2120 val_nll 3.2805 val_bpt 4.7327 mu*Cbar=3.21 10.7k tok/s
+13:36:48 [RIPPLE] step 1650 train_nll 3.2179 val_nll 3.2614 val_bpt 4.7052 mu*Cbar=3.21 10.7k tok/s
+13:37:01 [RIPPLE] step 1700 train_nll 3.1326 val_nll 3.2076 val_bpt 4.6276 mu*Cbar=3.20 10.7k tok/s
+13:37:15 [RIPPLE] step 1750 train_nll 3.0710 val_nll 3.2508 val_bpt 4.6900 mu*Cbar=3.19 10.7k tok/s
+13:37:15    ↳ gen: "Once upon a time, there was a little girl named Sally. It was a little girl named Amy. Amy loved to play with her toys. One day, she saw a little girl named Sue…"
+13:37:30 [RIPPLE] step 1800 train_nll 3.0493 val_nll 3.2746 val_bpt 4.7243 mu*Cbar=3.19 10.7k tok/s
+13:37:44 [RIPPLE] step 1850 train_nll 3.1373 val_nll 3.2447 val_bpt 4.6811 mu*Cbar=3.18 10.7k tok/s
+13:37:59 [RIPPLE] step 1900 train_nll 3.2431 val_nll 3.2093 val_bpt 4.6301 mu*Cbar=3.18 10.7k tok/s
+13:38:12 [RIPPLE] step 1950 train_nll 3.1818 val_nll 3.2354 val_bpt 4.6677 mu*Cbar=3.16 10.7k tok/s
+13:38:26 [RIPPLE] step 2000 train_nll 3.1168 val_nll 3.2476 val_bpt 4.6852 mu*Cbar=3.15 10.7k tok/s
+13:38:27 [RIPPLE] step 2000 P1 cos_overall=0.635 settle_iters~19.0 iters~entropy r=0.12
+13:38:41 [RIPPLE] step 2050 train_nll 3.1473 val_nll 3.1825 val_bpt 4.5914 mu*Cbar=3.14 10.7k tok/s
+13:38:55 [RIPPLE] step 2100 train_nll 3.1472 val_nll 3.1995 val_bpt 4.6159 mu*Cbar=3.13 10.7k tok/s
+13:38:55    ↳ gen: "Once upon a time, there was a little boy named Tim. In this boy who lived with many colors. One day, while days, Tim's mom called him how to him. Tim asked his …"
+13:39:09 [RIPPLE] step 2150 train_nll 3.2128 val_nll 3.2065 val_bpt 4.6259 mu*Cbar=3.14 10.7k tok/s
+13:39:23 [RIPPLE] step 2200 train_nll 3.1465 val_nll 3.2068 val_bpt 4.6265 mu*Cbar=3.12 10.7k tok/s
+13:39:36 [RIPPLE] step 2250 train_nll 3.1661 val_nll 3.1998 val_bpt 4.6163 mu*Cbar=3.12 10.7k tok/s
+13:39:50 [RIPPLE] step 2300 train_nll 3.1886 val_nll 3.1729 val_bpt 4.5775 mu*Cbar=3.11 10.8k tok/s
+13:40:04 [RIPPLE] step 2350 train_nll 3.1929 val_nll 3.1914 val_bpt 4.6043 mu*Cbar=3.11 10.8k tok/s
+13:40:18 [RIPPLE] step 2400 train_nll 2.9883 val_nll 3.1573 val_bpt 4.5550 mu*Cbar=3.11 10.8k tok/s
+13:40:32 [RIPPLE] step 2450 train_nll 3.0712 val_nll 3.1768 val_bpt 4.5832 mu*Cbar=3.10 10.8k tok/s
+13:40:32    ↳ gen: "Once upon a time, there was a little girl named Lily. She was going to her parents. She loved to wear her and her friends. She had a big, blue bear. She saw her…"
+13:40:46 [RIPPLE] step 2500 train_nll 3.1079 val_nll 3.1314 val_bpt 4.5177 mu*Cbar=3.09 10.8k tok/s
+13:40:47 [RIPPLE] step 2500 P1 cos_overall=0.629 settle_iters~19.4 iters~entropy r=0.00
+13:40:48    ↳ gen: "Once upon a time, there was a small, there lived a little girl named Mia lived in a small house with many trees. The bear was very pretty. He was very excited. …"
+13:40:49 [ckpt] step 2500 -> ckpt_002500.pt
+
+=== BPTT twin (baseline) ===
+13:40:50 [run:bptt_S5] dir=runs\bptt_S5 src=e678265ee5d4d715
+13:40:50 [BPTT] params=1.76M
+13:40:51 [BPTT]   step    1 train_loss 9.0313 val_nll 9.0284 val_bpt 13.0252 3.7k tok/s
+13:40:57 [BPTT]   step   50 train_loss 5.2471 val_nll 5.0207 val_bpt 7.2433 22.0k tok/s
+13:41:03 [BPTT]   step  100 train_loss 4.3337 val_nll 4.1857 val_bpt 6.0386 23.2k tok/s
+13:41:09 [BPTT]   step  150 train_loss 3.6908 val_nll 3.9113 val_bpt 5.6429 24.0k tok/s
+13:41:16 [BPTT]   step  200 train_loss 3.6101 val_nll 3.7637 val_bpt 5.4298 23.7k tok/s
+13:41:23 [BPTT]   step  250 train_loss 3.5840 val_nll 3.6162 val_bpt 5.2171 23.3k tok/s
+13:41:29 [BPTT]   step  300 train_loss 3.4821 val_nll 3.5228 val_bpt 5.0824 23.4k tok/s
+13:41:35 [BPTT]   step  350 train_loss 3.3376 val_nll 3.4655 val_bpt 4.9997 23.7k tok/s
+13:41:35    ↳ gen: "Once upon a time, there was a little girl named Amy. She loved to eat a small bug. Spot wanted to help his friends, a little bird named Sue. Tom was very excite…"
+13:41:42 [BPTT]   step  400 train_loss 3.3988 val_nll 3.4338 val_bpt 4.9539 23.7k tok/s
+13:41:49 [BPTT]   step  450 train_loss 3.3385 val_nll 3.3448 val_bpt 4.8255 23.5k tok/s
+13:41:55 [BPTT]   step  500 train_loss 3.2139 val_nll 3.3100 val_bpt 4.7753 23.5k tok/s
+13:42:01 [BPTT]   step  550 train_loss 3.1304 val_nll 3.2622 val_bpt 4.7063 23.7k tok/s
+13:42:08 [BPTT]   step  600 train_loss 3.3947 val_nll 3.2112 val_bpt 4.6327 23.7k tok/s
+13:42:14 [BPTT]   step  650 train_loss 3.0388 val_nll 3.2201 val_bpt 4.6457 23.6k tok/s
+13:42:21 [BPTT]   step  700 train_loss 2.9622 val_nll 3.1711 val_bpt 4.5749 23.5k tok/s
+13:42:21    ↳ gen: "Once upon a time, there lived a little boy named Tom. Tom loved to play with his friends. One day, Tim was his friends. He liked the book. One day, a man, he sa…"
+13:42:27 [BPTT]   step  750 train_loss 3.1774 val_nll 3.1193 val_bpt 4.5002 23.6k tok/s
+13:42:34 [BPTT]   step  800 train_loss 3.0424 val_nll 3.1074 val_bpt 4.4831 23.6k tok/s
+13:42:40 [BPTT]   step  850 train_loss 3.2820 val_nll 3.1183 val_bpt 4.4987 23.7k tok/s
+13:42:46 [BPTT]   step  900 train_loss 3.0909 val_nll 3.1062 val_bpt 4.4813 23.7k tok/s
+13:42:54 [BPTT]   step  950 train_loss 3.1485 val_nll 3.0762 val_bpt 4.4380 23.6k tok/s
+13:43:00 [BPTT]   step 1000 train_loss 2.9928 val_nll 3.0545 val_bpt 4.4066 23.6k tok/s
+13:43:06 [BPTT]   step 1050 train_loss 2.8128 val_nll 3.0184 val_bpt 4.3546 23.6k tok/s
+13:43:07    ↳ gen: "Once upon a time, there was a little girl named Molly. She liked to find her toy telephone. One day, she found an envelope and her toy box. He said, "Spot, can …"
+13:43:12 [BPTT]   step 1100 train_loss 2.9699 val_nll 2.9892 val_bpt 4.3124 23.7k tok/s
+13:43:19 [BPTT]   step 1150 train_loss 2.9245 val_nll 2.9789 val_bpt 4.2977 23.7k tok/s
+13:43:26 [BPTT]   step 1200 train_loss 2.7994 val_nll 3.0252 val_bpt 4.3644 23.6k tok/s
+13:43:32 [BPTT]   step 1250 train_loss 2.8007 val_nll 3.0190 val_bpt 4.3555 23.7k tok/s
+13:43:38 [BPTT]   step 1300 train_loss 2.9854 val_nll 2.9585 val_bpt 4.2682 23.8k tok/s
+13:43:44 [BPTT]   step 1350 train_loss 2.7648 val_nll 2.9868 val_bpt 4.3091 23.8k tok/s
+13:43:50 [BPTT]   step 1400 train_loss 2.8187 val_nll 2.9874 val_bpt 4.3099 23.8k tok/s
+13:43:51    ↳ gen: "Once upon a time, there was a little girl named Lily. Lily loved to play outside in the park every day. One day, Mia saw a big, small mouse. They wanted to be c…"
+13:43:57 [BPTT]   step 1450 train_loss 2.7863 val_nll 2.9467 val_bpt 4.2511 23.8k tok/s
+13:44:03 [BPTT]   step 1500 train_loss 2.7313 val_nll 2.9510 val_bpt 4.2574 23.8k tok/s
+13:44:10 [BPTT]   step 1550 train_loss 2.7359 val_nll 2.8815 val_bpt 4.1572 23.8k tok/s
+13:44:16 [BPTT]   step 1600 train_loss 2.8338 val_nll 2.9207 val_bpt 4.2137 23.9k tok/s
+13:44:23 [BPTT]   step 1650 train_loss 2.8665 val_nll 2.8990 val_bpt 4.1824 23.8k tok/s
+13:44:29 [BPTT]   step 1700 train_loss 2.7678 val_nll 2.8684 val_bpt 4.1382 23.8k tok/s
+13:44:36 [BPTT]   step 1750 train_loss 2.7198 val_nll 2.8941 val_bpt 4.1753 23.8k tok/s
+13:44:36    ↳ gen: "Once upon a time, there was a little girl named Sally. She was restless and wanted to be hungry. She asked her mom, "Why are you sad?" Her mom said, "I found a …"
+13:44:42 [BPTT]   step 1800 train_loss 2.6808 val_nll 2.9184 val_bpt 4.2104 23.8k tok/s
+13:44:48 [BPTT]   step 1850 train_loss 2.7893 val_nll 2.9010 val_bpt 4.1852 23.9k tok/s
+13:44:55 [BPTT]   step 1900 train_loss 2.8607 val_nll 2.8669 val_bpt 4.1361 23.8k tok/s
+13:45:01 [BPTT]   step 1950 train_loss 2.8244 val_nll 2.8804 val_bpt 4.1556 23.8k tok/s
+13:45:07 [BPTT]   step 2000 train_loss 2.7415 val_nll 2.8973 val_bpt 4.1799 23.9k tok/s
+13:45:14 [BPTT]   step 2050 train_loss 2.7606 val_nll 2.8399 val_bpt 4.0971 23.9k tok/s
+13:45:20 [BPTT]   step 2100 train_loss 2.7853 val_nll 2.8343 val_bpt 4.0891 23.8k tok/s
+13:45:21    ↳ gen: "Once upon a time, there was a little boy named Tim. Tim was his best friend, he loved to play outside. One day, Tim's uncle asked his mom to him. Tim asked his …"
+13:45:28 [BPTT]   step 2150 train_loss 2.8237 val_nll 2.8510 val_bpt 4.1131 23.8k tok/s
+13:45:34 [BPTT]   step 2200 train_loss 2.7546 val_nll 2.8544 val_bpt 4.1180 23.8k tok/s
+13:45:41 [BPTT]   step 2250 train_loss 2.8122 val_nll 2.8788 val_bpt 4.1533 23.8k tok/s
+13:45:47 [BPTT]   step 2300 train_loss 2.8049 val_nll 2.8170 val_bpt 4.0640 23.8k tok/s
+13:45:53 [BPTT]   step 2350 train_loss 2.8205 val_nll 2.8476 val_bpt 4.1082 23.8k tok/s
+13:46:00 [BPTT]   step 2400 train_loss 2.6218 val_nll 2.7935 val_bpt 4.0301 23.7k tok/s
+13:46:07 [BPTT]   step 2450 train_loss 2.7177 val_nll 2.8281 val_bpt 4.0801 23.7k tok/s
+13:46:07    ↳ gen: "Once upon a time, there was a little girl named Lily. Lily was a pretty ball. One day, Lily wanted to find her ball. She said, "I will see you." Mia said, "Okay…"
+13:46:13 [BPTT]   step 2500 train_loss 2.7214 val_nll 2.7978 val_bpt 4.0364 23.7k tok/s
+13:46:13    ↳ gen: "Once upon a time, there was a small, there was a little girl named Lily. Lily loved to help her friends. One day, Lily was playing with her friend, Tim. One day…"
+13:46:15 [ckpt] step 2500 -> ckpt_002500.pt
+
+=== SUMMARY ===
+RIPPLE val_nll 3.1515 (4.547 bpt)   BPTT 2.7948   gap +12.8%
+[ripple_S5] {"run_name": "ripple_S5", "source_hash": "e678265ee5d4d715", "final_val_nll": 3.1314131021499634, "best_val_nll": 3.1314131021499634, "final_val_bpt": 4.517674157095992, "best_val_bpt": 4.517674157095992, "wall_s": 714.94}
+  report: runs\ripple_S5\report.html  (6 plots)
+[bptt_S5] {"run_name": "bptt_S5", "source_hash": "e678265ee5d4d715", "final_val_nll": 2.7977990031242372, "best_val_nll": 2.79346307516098, "final_val_bpt": 4.036370750472125, "best_val_bpt": 4.030115328696829, "wall_s": 323.76}
+  report: runs\bptt_S5\report.html  (5 plots)
+
+=== comparison ===
+ run_name      source_hash  final_val_nll  best_val_nll  final_val_bpt  best_val_bpt  wall_s
+ripple_S5 e678265ee5d4d715       3.131413      3.131413       4.517674      4.517674  714.94
+  bptt_S5 e678265ee5d4d715       2.797799      2.793463       4.036371      4.030115  323.76

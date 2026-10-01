@@ -1,0 +1,12 @@
+{
+  "n_layers": 1,
+  "steps": 800,
+  "bptt_final_val_nll": 3.467739629745483,
+  "ripple_final_val_nll": 3.7787271201610566,
+  "gap_fraction": 0.08968017314448677,
+  "P2_within_20pct": true,
+  "runs": {
+    "bptt": "runs\\bptt_L1",
+    "ripple": "runs\\ripple_L1"
+  }
+}

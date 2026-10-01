@@ -1,0 +1,284 @@
+[
+  {
+    "N": 4,
+    "rule": "L1",
+    "lam": 0.0,
+    "feedback_seed": 1234,
+    "final_only": true,
+    "freeze_block0": false,
+    "mean": 0.9998046875000001,
+    "accs": [
+      0.9998046875,
+      1.0,
+      0.999609375
+    ],
+    "curves": [
+      [
+        {
+          "step": 2000,
+          "recall": 1.0,
+          "update_cos": 0.999810516834259,
+          "weight_align": 0.008763535879552364
+        },
+        {
+          "step": 4000,
+          "recall": 0.99853515625,
+          "update_cos": 0.998263955116272,
+          "weight_align": 0.011277669109404087
+        },
+        {
+          "step": 6000,
+          "recall": 1.0,
+          "update_cos": 0.9999952912330627,
+          "weight_align": 0.009031849913299084
+        },
+        {
+          "step": 8000,
+          "recall": 1.0,
+          "update_cos": 0.9999955296516418,
+          "weight_align": 0.0071783410385251045
+        }
+      ],
+      [
+        {
+          "step": 2000,
+          "recall": 0.99951171875,
+          "update_cos": 0.9985951781272888,
+          "weight_align": 0.004292041063308716
+        },
+        {
+          "step": 4000,
+          "recall": 0.99853515625,
+          "update_cos": 0.9995658993721008,
+          "weight_align": 0.0035348283126950264
+        },
+        {
+          "step": 6000,
+          "recall": 1.0,
+          "update_cos": 0.9999982118606567,
+          "weight_align": 0.0015024361200630665
+        },
+        {
+          "step": 8000,
+          "recall": 0.99951171875,
+          "update_cos": 0.9995633363723755,
+          "weight_align": 0.0038080173544585705
+        }
+      ],
+      [
+        {
+          "step": 2000,
+          "recall": 0.99951171875,
+          "update_cos": 0.9999464154243469,
+          "weight_align": -0.009970229119062424
+        },
+        {
+          "step": 4000,
+          "recall": 1.0,
+          "update_cos": 0.9999823570251465,
+          "weight_align": -0.01132997963577509
+        },
+        {
+          "step": 6000,
+          "recall": 1.0,
+          "update_cos": 0.9999383091926575,
+          "weight_align": -0.009671003557741642
+        },
+        {
+          "step": 8000,
+          "recall": 1.0,
+          "update_cos": 0.9991423487663269,
+          "weight_align": -0.008940213359892368
+        }
+      ]
+    ]
+  },
+  {
+    "N": 4,
+    "rule": "L1FA",
+    "lam": 1.0,
+    "feedback_seed": 1234,
+    "final_only": true,
+    "freeze_block0": false,
+    "mean": 0.9988281250000001,
+    "accs": [
+      0.9994140625,
+      0.9986328125,
+      0.9984375
+    ],
+    "curves": [
+      [
+        {
+          "step": 2000,
+          "recall": 0.98779296875,
+          "update_cos": 0.3579874336719513,
+          "weight_align": 0.0367734469473362
+        },
+        {
+          "step": 4000,
+          "recall": 0.998046875,
+          "update_cos": 0.2021481841802597,
+          "weight_align": 0.0417603962123394
+        },
+        {
+          "step": 6000,
+          "recall": 0.99951171875,
+          "update_cos": 0.3862302303314209,
+          "weight_align": 0.03976128622889519
+        },
+        {
+          "step": 8000,
+          "recall": 1.0,
+          "update_cos": 0.2176332324743271,
+          "weight_align": 0.035918619483709335
+        }
+      ],
+      [
+        {
+          "step": 2000,
+          "recall": 0.99560546875,
+          "update_cos": 0.34165310859680176,
+          "weight_align": 0.028056232258677483
+        },
+        {
+          "step": 4000,
+          "recall": 0.99951171875,
+          "update_cos": 0.444736123085022,
+          "weight_align": 0.025700051337480545
+        },
+        {
+          "step": 6000,
+          "recall": 0.99853515625,
+          "update_cos": 0.4347018301486969,
+          "weight_align": 0.02745266631245613
+        },
+        {
+          "step": 8000,
+          "recall": 0.9990234375,
+          "update_cos": 0.29944902658462524,
+          "weight_align": 0.023270990699529648
+        }
+      ],
+      [
+        {
+          "step": 2000,
+          "recall": 0.9970703125,
+          "update_cos": 0.5175876021385193,
+          "weight_align": 0.017555203288793564
+        },
+        {
+          "step": 4000,
+          "recall": 0.99853515625,
+          "update_cos": 0.2916206121444702,
+          "weight_align": 0.016510268673300743
+        },
+        {
+          "step": 6000,
+          "recall": 0.99951171875,
+          "update_cos": 0.3254542052745819,
+          "weight_align": 0.013833883218467236
+        },
+        {
+          "step": 8000,
+          "recall": 0.9990234375,
+          "update_cos": 0.25102150440216064,
+          "weight_align": 0.009998742491006851
+        }
+      ]
+    ]
+  },
+  {
+    "N": 4,
+    "rule": "BPTT",
+    "lam": 0.0,
+    "feedback_seed": 1234,
+    "final_only": true,
+    "freeze_block0": false,
+    "mean": 0.9999348958333334,
+    "accs": [
+      1.0,
+      0.9998046875,
+      1.0
+    ],
+    "curves": [
+      [
+        {
+          "step": 2000,
+          "recall": 1.0,
+          "update_cos": 1.0,
+          "weight_align": 0.010287466458976269
+        },
+        {
+          "step": 4000,
+          "recall": 0.99951171875,
+          "update_cos": 1.0,
+          "weight_align": 0.009368578903377056
+        },
+        {
+          "step": 6000,
+          "recall": 1.0,
+          "update_cos": 1.0,
+          "weight_align": 0.011683344841003418
+        },
+        {
+          "step": 8000,
+          "recall": 1.0,
+          "update_cos": 1.0,
+          "weight_align": 0.007724214345216751
+        }
+      ],
+      [
+        {
+          "step": 2000,
+          "recall": 0.99853515625,
+          "update_cos": 1.0,
+          "weight_align": 0.0043088942766189575
+        },
+        {
+          "step": 4000,
+          "recall": 1.0,
+          "update_cos": 1.0,
+          "weight_align": 0.003364500356838107
+        },
+        {
+          "step": 6000,
+          "recall": 1.0,
+          "update_cos": 1.0,
+          "weight_align": 0.0015199579065665603
+        },
+        {
+          "step": 8000,
+          "recall": 1.0,
+          "update_cos": 1.0,
+          "weight_align": 0.003316456452012062
+        }
+      ],
+      [
+        {
+          "step": 2000,
+          "recall": 0.99951171875,
+          "update_cos": 1.0,
+          "weight_align": -0.008963692933321
+        },
+        {
+          "step": 4000,
+          "recall": 1.0,
+          "update_cos": 1.0,
+          "weight_align": -0.006460025906562805
+        },
+        {
+          "step": 6000,
+          "recall": 1.0,
+          "update_cos": 1.0,
+          "weight_align": -0.007004475221037865
+        },
+        {
+          "step": 8000,
+          "recall": 1.0,
+          "update_cos": 1.0,
+          "weight_align": -0.005843906197696924
+        }
+      ]
+    ]
+  }
+]

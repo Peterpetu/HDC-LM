@@ -1,0 +1,21 @@
+{
+  "config": {
+    "batch": 8,
+    "T": 1024,
+    "Lc": 128,
+    "row_chunk": 2048,
+    "n_settle": 15,
+    "settle_tol": 0.0001,
+    "P": 11116
+  },
+  "params": 162321552,
+  "step_times_s": [
+    6.7554051876068115,
+    6.785736083984375
+  ],
+  "tok_per_s": 1209.942328448565,
+  "peak_vram_gb": 8.061370372772217,
+  "projected_run_h": 57.39939327902264,
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+  "torch": "2.7.1+cu118"
+}

@@ -1,0 +1,33 @@
+
+##### seed 0 — Bayes floors [1.183, 1.212, 1.229] #####
+  [naive       ] final 6.842  forget +8.263  per-dom-final [10.3586, 8.7952, 1.3715]
+  [gate        ] final 6.556  forget +7.784  per-dom-final [10.1689, 8.0875, 1.4128]
+  [replay      ] final 2.455  forget +1.431  per-dom-final [3.0246, 2.7193, 1.621]
+  [replay_gate ] final 2.388  forget +1.242  per-dom-final [2.857, 2.5884, 1.7194]
+  [bptt_naive  ] final 6.810  forget +8.215  per-dom-final [10.6523, 8.4021, 1.3766]
+  [bptt_replay ] final 2.242  forget +1.118  per-dom-final [2.6724, 2.4277, 1.6254]
+
+##### seed 1 — Bayes floors [1.183, 1.212, 1.229] #####
+  [naive       ] final 6.601  forget +7.910  per-dom-final [10.2434, 8.1812, 1.378]
+  [gate        ] final 6.217  forget +7.288  per-dom-final [9.6534, 7.5858, 1.4121]
+  [replay      ] final 2.227  forget +1.002  per-dom-final [2.3862, 2.4131, 1.8803]
+  [replay_gate ] final 2.236  forget +0.931  per-dom-final [2.3457, 2.3782, 1.9838]
+  [bptt_naive  ] final 6.498  forget +7.755  per-dom-final [10.0, 8.1162, 1.3782]
+  [bptt_replay ] final 2.087  forget +0.825  per-dom-final [2.2034, 2.2416, 1.8161]
+
+##### seed 2 — Bayes floors [1.183, 1.212, 1.229] #####
+  [naive       ] final 6.624  forget +7.934  per-dom-final [10.1177, 8.3712, 1.3839]
+  [gate        ] final 6.210  forget +7.275  per-dom-final [9.4353, 7.7843, 1.4101]
+  [replay      ] final 2.401  forget +1.363  per-dom-final [2.7614, 2.7812, 1.6616]
+  [replay_gate ] final 2.351  forget +1.197  per-dom-final [2.6187, 2.6593, 1.7763]
+  [bptt_naive  ] final 6.542  forget +7.811  per-dom-final [10.0755, 8.1682, 1.3836]
+  [bptt_replay ] final 2.189  forget +1.053  per-dom-final [2.4551, 2.4509, 1.6612]
+
+=== CONTINUAL-LEARNING SUMMARY (mean±std over seeds; lower forget = better) ===
+mode                 final_loss       forgetting     excess/Bayes
+naive               6.689±0.133      8.036±0.197      5.481±0.133
+gate                6.328±0.198      7.449±0.290      5.120±0.198
+replay              2.361±0.119      1.265±0.231      1.153±0.119
+replay_gate         2.325±0.080      1.123±0.168      1.117±0.080
+bptt_naive          6.617±0.169      7.927±0.251      5.409±0.169
+bptt_replay         2.173±0.079      0.999±0.154      0.964±0.079

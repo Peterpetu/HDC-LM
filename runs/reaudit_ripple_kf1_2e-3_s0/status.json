@@ -1,0 +1,40 @@
+{
+  "run_name": "reaudit_ripple_kf1_2e-3_s0",
+  "last_step": 800,
+  "total_steps": 800,
+  "elapsed_s": 148.7,
+  "eta_s": 0.0,
+  "records": 17,
+  "latest": {
+    "step": 800,
+    "tag": "eval",
+    "elapsed_s": 148.65,
+    "train_nll": 3.639247179031372,
+    "train_bpt": 5.250323861999081,
+    "Cbar": 3.5769917964935303,
+    "gnorm_embed": 0.4858945576132378,
+    "gnorm_Wk": 0.1135065288666725,
+    "gnorm_Wq": 0.12200654080686867,
+    "gnorm_Wv": 0.1632635896431561,
+    "gnorm_M": 0.03265246094391601,
+    "gnorm_norm_gain": 0.025136023030512288,
+    "gnorm_log_gamma": 0.019315157486902983,
+    "gnorm_total": 0.5409148981906304,
+    "gamma_mean_L0": 0.6279960870742798,
+    "Meff_L0": 23.30567169189453,
+    "sigma_max_V": 7.287689208984375,
+    "safe_beta_V": 0.03765739803395011,
+    "sigma_max_M_mean": 8.386550903320312,
+    "safe_beta_M_min": 0.02843565398883322,
+    "beta": 1.0,
+    "beta_over_safe_M": 35.16711802699187,
+    "val_nll": 3.5502715945243835,
+    "val_bpt": 5.121959227366955,
+    "val_nll_per_block": [
+      3.5502715945243835
+    ],
+    "lr": 0.002,
+    "tokens": 1228800,
+    "tokens_per_s": 8268.187182787717
+  }
+}

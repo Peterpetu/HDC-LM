@@ -1,0 +1,20 @@
+10:14:13 [run:reaudit_ripple_kf0_1e-3_s0] dir=runs\reaudit_ripple_kf0_1e-3_s0 src=a6b55425976e4fa9
+10:14:13 [RIPPLE L0] params=1.13M safe_beta_M~0.377 beta=1.0
+10:14:14 [RIPPLE] step    1 train_nll 9.0262 val_nll 9.0243 val_bpt 13.0194 mu*Cbar=0.09 2.6k tok/s
+10:14:21 [RIPPLE] step   50 train_nll 7.5435 val_nll 7.4903 val_bpt 10.8063 mu*Cbar=3.42 9.1k tok/s
+10:14:31 [RIPPLE] step  100 train_nll 4.9777 val_nll 5.0985 val_bpt 7.3555 mu*Cbar=4.33 8.7k tok/s
+10:14:39 [RIPPLE] step  150 train_nll 4.5719 val_nll 4.7324 val_bpt 6.8275 mu*Cbar=4.52 8.9k tok/s
+10:14:48 [RIPPLE] step  200 train_nll 4.2360 val_nll 4.4621 val_bpt 6.4374 mu*Cbar=4.52 8.8k tok/s
+10:14:56 [RIPPLE] step  250 train_nll 4.3123 val_nll 4.3596 val_bpt 6.2896 mu*Cbar=4.45 8.9k tok/s
+10:15:05 [RIPPLE] step  300 train_nll 3.9310 val_nll 4.2718 val_bpt 6.1630 mu*Cbar=4.35 8.9k tok/s
+10:15:13 [RIPPLE] step  350 train_nll 4.0455 val_nll 4.1003 val_bpt 5.9154 mu*Cbar=4.26 9.0k tok/s
+10:15:22 [RIPPLE] step  400 train_nll 3.9043 val_nll 4.0524 val_bpt 5.8463 mu*Cbar=4.18 8.9k tok/s
+10:15:30 [RIPPLE] step  450 train_nll 4.1296 val_nll 4.0535 val_bpt 5.8480 mu*Cbar=4.11 9.0k tok/s
+10:15:39 [RIPPLE] step  500 train_nll 3.8145 val_nll 3.9978 val_bpt 5.7675 mu*Cbar=4.04 8.9k tok/s
+10:15:47 [RIPPLE] step  550 train_nll 3.8892 val_nll 3.9478 val_bpt 5.6955 mu*Cbar=3.99 8.9k tok/s
+10:15:57 [RIPPLE] step  600 train_nll 3.7811 val_nll 3.9279 val_bpt 5.6667 mu*Cbar=3.95 8.9k tok/s
+10:16:05 [RIPPLE] step  650 train_nll 3.8339 val_nll 3.8858 val_bpt 5.6061 mu*Cbar=3.91 8.9k tok/s
+10:16:14 [RIPPLE] step  700 train_nll 3.7488 val_nll 3.8551 val_bpt 5.5618 mu*Cbar=3.87 8.9k tok/s
+10:16:22 [RIPPLE] step  750 train_nll 3.7966 val_nll 3.8297 val_bpt 5.5252 mu*Cbar=3.83 8.9k tok/s
+10:16:31 [RIPPLE] step  800 train_nll 3.8356 val_nll 3.7758 val_bpt 5.4473 mu*Cbar=3.80 8.9k tok/s
+10:16:32 [ckpt] step 800 -> ckpt_000800.pt

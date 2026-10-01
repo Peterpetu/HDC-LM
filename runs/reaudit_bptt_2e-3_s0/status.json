@@ -1,0 +1,32 @@
+{
+  "run_name": "reaudit_bptt_2e-3_s0",
+  "last_step": 800,
+  "total_steps": 800,
+  "elapsed_s": 72.5,
+  "eta_s": 0.0,
+  "records": 17,
+  "latest": {
+    "step": 800,
+    "tag": "eval",
+    "elapsed_s": 72.52,
+    "train_nll": 3.5327303409576416,
+    "train_bpt": 5.096652547814797,
+    "gnorm_total": 0.5531561374664307,
+    "lr": 0.002,
+    "tokens": 1228800,
+    "tokens_per_s": 16955.84912704791,
+    "val_nll": 3.4182202219963074,
+    "val_bpt": 4.931449366924219,
+    "val_nll_per_block": [
+      3.4182202219963074
+    ],
+    "gamma_mean_L0": 0.6238539218902588,
+    "Meff_L0": 20.231821060180664,
+    "sigma_max_V": 7.1751813888549805,
+    "safe_beta_V": 0.03884760297933248,
+    "sigma_max_M_mean": 8.872637748718262,
+    "safe_beta_M_min": 0.02540530976375836,
+    "beta": 1.0,
+    "beta_over_safe_M": 39.36185030999063
+  }
+}

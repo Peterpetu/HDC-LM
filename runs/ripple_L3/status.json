@@ -1,0 +1,25 @@
+{
+  "run_name": "ripple_L3",
+  "last_step": 800,
+  "total_steps": 800,
+  "elapsed_s": 449.8,
+  "eta_s": 0.0,
+  "records": 41,
+  "latest": {
+    "step": 800,
+    "tag": "diag",
+    "elapsed_s": 449.81,
+    "cos_embed": 0.5313364863395691,
+    "cos_Wk": 0.6048615574836731,
+    "cos_Wq": 0.8818088173866272,
+    "cos_Wv": 0.8281255960464478,
+    "cos_M": 0.9046325087547302,
+    "cos_norm_gain": 0.7525122165679932,
+    "cos_log_gamma": 0.9544546008110046,
+    "cos_overall": 0.4835544228553772,
+    "settle_iters_mean": 17.90625,
+    "settle_iters_max": 19,
+    "read_entropy_mean": 1.5057469606399536,
+    "iters_entropy_corr": -0.21318186819553375
+  }
+}

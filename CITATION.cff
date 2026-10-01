@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite this repository."
+title: "HDC-LM: backprop-free credit assignment for a gated linear-attention language model"
+authors:
+  - family-names: Lahtinen
+    given-names: Peter
+year: 2026
+url: "https://github.com/Peterpetu/HDC-LM"
+license: MIT

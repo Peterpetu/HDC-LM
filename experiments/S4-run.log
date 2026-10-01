@@ -1,0 +1,6 @@
+=== config ===
+model: RLMConfig(vocab_size=8192, d_model=128, n_layers=3, n_heads=4, beta=4.0, beta_n=0.05, n_settle=12, eta=0.3, rope_base=10000.0, gamma_min=0.0, gamma_max=0.99, key_full=False, deep_supervision=True)
+train: TrainConfig(steps=500, batch=32, seq_len=128, lr=0.003, eval_every=50, eval_iters=20, seed=0, device='cuda')
+params: 1
+
+=== BPTT twin (baseline) ===

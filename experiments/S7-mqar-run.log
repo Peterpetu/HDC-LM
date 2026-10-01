@@ -1,0 +1,18 @@
+[cleanup_on (n_settle=15)] N= 4 pairs -> recall 0.193
+[cleanup_on (n_settle=15)] N= 8 pairs -> recall 0.136
+[cleanup_on (n_settle=15)] N=16 pairs -> recall 0.100
+[cleanup_on (n_settle=15)] N=32 pairs -> recall 0.071
+[cleanup_off (n_settle=1)] N= 4 pairs -> recall 0.186
+[cleanup_off (n_settle=1)] N= 8 pairs -> recall 0.139
+[cleanup_off (n_settle=1)] N=16 pairs -> recall 0.094
+[cleanup_off (n_settle=1)] N=32 pairs -> recall 0.070
+[cleanup+delta] N= 4 pairs -> recall 0.187
+[cleanup+delta] N= 8 pairs -> recall 0.140
+[cleanup+delta] N=16 pairs -> recall 0.094
+[cleanup+delta] N=32 pairs -> recall 0.059
+
+=== MQAR in-context recall accuracy vs #pairs (P6: does cleanup extend recall?) ===
+config                     N=4     N=8     N=16    N=32   
+cleanup_on (n_settle=15)   0.193 0.136 0.100 0.071
+cleanup_off (n_settle=1)   0.186 0.139 0.094 0.070
+cleanup+delta              0.187 0.140 0.094 0.059

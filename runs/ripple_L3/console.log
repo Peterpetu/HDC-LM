@@ -1,0 +1,44 @@
+13:13:59 [run:ripple_L3] dir=runs\ripple_L3 src=35081360988f86b1
+13:13:59 [RIPPLE] params=1.29M safe_beta_M~0.349 beta=1.0
+13:14:01 [RIPPLE] step    1 train_nll 9.0230 val_nll 9.0248 val_bpt 13.0200 mu*Cbar=0.09 1.0k tok/s
+13:14:14 [RIPPLE] step   25 train_nll 8.4416 val_nll 7.5788 val_bpt 10.9339 mu*Cbar=1.98 2.6k tok/s
+13:14:27 [RIPPLE] step   50 train_nll 5.8983 val_nll 5.9455 val_bpt 8.5775 mu*Cbar=3.02 2.8k tok/s
+13:14:39 [RIPPLE] step   75 train_nll 5.5525 val_nll 5.6469 val_bpt 8.1468 mu*Cbar=3.63 2.9k tok/s
+13:14:52 [RIPPLE] step  100 train_nll 5.1353 val_nll 5.2916 val_bpt 7.6341 mu*Cbar=4.03 2.9k tok/s
+13:14:53 [RIPPLE] step  100 P1 cos_overall=0.512 settle_iters~17.1 iters~entropy r=-0.97
+13:15:07 [RIPPLE] step  125 train_nll 4.8123 val_nll 5.1254 val_bpt 7.3943 mu*Cbar=4.28 2.8k tok/s
+13:15:20 [RIPPLE] step  150 train_nll 4.7579 val_nll 4.9371 val_bpt 7.1227 mu*Cbar=4.42 2.8k tok/s
+13:15:34 [RIPPLE] step  175 train_nll 4.6098 val_nll 4.6980 val_bpt 6.7778 mu*Cbar=4.48 2.8k tok/s
+13:15:47 [RIPPLE] step  200 train_nll 4.3969 val_nll 4.5999 val_bpt 6.6363 mu*Cbar=4.51 2.8k tok/s
+13:15:48 [RIPPLE] step  200 P1 cos_overall=0.546 settle_iters~17.4 iters~entropy r=-0.46
+13:16:01 [RIPPLE] step  225 train_nll 4.3629 val_nll 4.5695 val_bpt 6.5924 mu*Cbar=4.52 2.8k tok/s
+13:16:15 [RIPPLE] step  250 train_nll 4.4469 val_nll 4.4838 val_bpt 6.4688 mu*Cbar=4.50 2.8k tok/s
+13:16:29 [RIPPLE] step  275 train_nll 4.3874 val_nll 4.4352 val_bpt 6.3986 mu*Cbar=4.48 2.8k tok/s
+13:16:42 [RIPPLE] step  300 train_nll 4.0679 val_nll 4.3817 val_bpt 6.3215 mu*Cbar=4.43 2.8k tok/s
+13:16:43 [RIPPLE] step  300 P1 cos_overall=0.539 settle_iters~17.7 iters~entropy r=0.00
+13:16:56 [RIPPLE] step  325 train_nll 4.0783 val_nll 4.3004 val_bpt 6.2041 mu*Cbar=4.40 2.8k tok/s
+13:17:10 [RIPPLE] step  350 train_nll 4.1781 val_nll 4.2972 val_bpt 6.1996 mu*Cbar=4.37 2.8k tok/s
+13:17:23 [RIPPLE] step  375 train_nll 4.2611 val_nll 4.2336 val_bpt 6.1078 mu*Cbar=4.33 2.8k tok/s
+13:17:37 [RIPPLE] step  400 train_nll 4.0513 val_nll 4.2000 val_bpt 6.0594 mu*Cbar=4.30 2.8k tok/s
+13:17:38 [RIPPLE] step  400 P1 cos_overall=0.492 settle_iters~17.7 iters~entropy r=-0.47
+13:17:51 [RIPPLE] step  425 train_nll 4.1591 val_nll 4.2200 val_bpt 6.0881 mu*Cbar=4.26 2.8k tok/s
+13:18:04 [RIPPLE] step  450 train_nll 4.2677 val_nll 4.1356 val_bpt 5.9664 mu*Cbar=4.24 2.8k tok/s
+13:18:19 [RIPPLE] step  475 train_nll 4.1457 val_nll 4.1411 val_bpt 5.9744 mu*Cbar=4.20 2.8k tok/s
+13:18:34 [RIPPLE] step  500 train_nll 3.9131 val_nll 4.0967 val_bpt 5.9102 mu*Cbar=4.17 2.8k tok/s
+13:18:35 [RIPPLE] step  500 P1 cos_overall=0.520 settle_iters~17.8 iters~entropy r=-0.32
+13:18:50 [RIPPLE] step  525 train_nll 4.0135 val_nll 4.0991 val_bpt 5.9137 mu*Cbar=4.13 2.8k tok/s
+13:19:05 [RIPPLE] step  550 train_nll 4.0209 val_nll 4.0338 val_bpt 5.8195 mu*Cbar=4.11 2.8k tok/s
+13:19:19 [RIPPLE] step  575 train_nll 3.9099 val_nll 4.0342 val_bpt 5.8201 mu*Cbar=4.09 2.8k tok/s
+13:19:32 [RIPPLE] step  600 train_nll 3.9106 val_nll 4.0562 val_bpt 5.8519 mu*Cbar=4.08 2.8k tok/s
+13:19:33 [RIPPLE] step  600 P1 cos_overall=0.520 settle_iters~17.9 iters~entropy r=-0.21
+13:19:48 [RIPPLE] step  625 train_nll 4.0703 val_nll 4.0310 val_bpt 5.8155 mu*Cbar=4.05 2.8k tok/s
+13:20:03 [RIPPLE] step  650 train_nll 3.9649 val_nll 3.9738 val_bpt 5.7330 mu*Cbar=4.04 2.7k tok/s
+13:20:17 [RIPPLE] step  675 train_nll 3.7282 val_nll 3.9835 val_bpt 5.7470 mu*Cbar=4.02 2.7k tok/s
+13:20:31 [RIPPLE] step  700 train_nll 3.8859 val_nll 3.9112 val_bpt 5.6426 mu*Cbar=4.00 2.7k tok/s
+13:20:33 [RIPPLE] step  700 P1 cos_overall=0.520 settle_iters~17.9 iters~entropy r=-0.35
+13:20:46 [RIPPLE] step  725 train_nll 3.7865 val_nll 3.9211 val_bpt 5.6570 mu*Cbar=3.98 2.7k tok/s
+13:21:01 [RIPPLE] step  750 train_nll 3.9433 val_nll 3.8874 val_bpt 5.6083 mu*Cbar=3.96 2.7k tok/s
+13:21:14 [RIPPLE] step  775 train_nll 3.8258 val_nll 3.9305 val_bpt 5.6705 mu*Cbar=3.93 2.7k tok/s
+13:21:28 [RIPPLE] step  800 train_nll 4.0207 val_nll 3.9131 val_bpt 5.6454 mu*Cbar=3.92 2.7k tok/s
+13:21:29 [RIPPLE] step  800 P1 cos_overall=0.484 settle_iters~17.9 iters~entropy r=-0.21
+13:21:31 [ckpt] step 800 -> ckpt_000800.pt

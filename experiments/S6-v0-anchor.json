@@ -1,0 +1,39 @@
+{
+  "smoke": {
+    "loss_before": 10.951253890991211,
+    "loss_after": 9.701379776000977,
+    "grad_norm": 11.225041389465332,
+    "ok": true
+  },
+  "frozen": {
+    "K": 1220,
+    "batches": 153,
+    "supervised_tokens": 1248060
+  },
+  "final_model": {
+    "step": 3815,
+    "ours_ce": 3.363798658486721,
+    "ours_ppl": 28.898759157983854,
+    "ref_side_ce": 3.3637986425493582,
+    "agreement_abs": 1.5937362984885795e-08,
+    "agreement_ok": true
+  },
+  "best_model": {
+    "step": 3400,
+    "ours_ce": 3.3868493691271353,
+    "ours_ppl": 29.572632889927785
+  },
+  "env": {
+    "torch": "2.7.1+cu118",
+    "python": "3.11.2",
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+    "protocol": "FROZEN-EVAL v1 (docs/10-s6-protocol.md, plan \u00a7M.5)",
+    "archived_reference": {
+      "final_val_ce": 3.3459,
+      "final_val_ppl": 28.39,
+      "best_val_ppl": 27.57,
+      "note": "historical; stochastic-eval draws, sigma~0.05"
+    }
+  },
+  "gate_v0_pass": true
+}

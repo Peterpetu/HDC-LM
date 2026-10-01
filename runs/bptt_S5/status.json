@@ -1,0 +1,14 @@
+{
+  "run_name": "bptt_S5",
+  "last_step": 2500,
+  "total_steps": 2500,
+  "elapsed_s": 323.8,
+  "eta_s": 0.0,
+  "records": 59,
+  "latest": {
+    "step": 2500,
+    "tag": "sample",
+    "elapsed_s": 323.76,
+    "sample": "Once upon a time, there was a small, there was a little girl named Lily. Lily loved to help her friends. One day, Lily was playing with her friend, Tim. One day"
+  }
+}

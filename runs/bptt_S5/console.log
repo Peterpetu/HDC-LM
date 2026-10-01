@@ -1,0 +1,62 @@
+13:40:50 [run:bptt_S5] dir=runs\bptt_S5 src=e678265ee5d4d715
+13:40:50 [BPTT] params=1.76M
+13:40:51 [BPTT]   step    1 train_loss 9.0313 val_nll 9.0284 val_bpt 13.0252 3.7k tok/s
+13:40:57 [BPTT]   step   50 train_loss 5.2471 val_nll 5.0207 val_bpt 7.2433 22.0k tok/s
+13:41:03 [BPTT]   step  100 train_loss 4.3337 val_nll 4.1857 val_bpt 6.0386 23.2k tok/s
+13:41:09 [BPTT]   step  150 train_loss 3.6908 val_nll 3.9113 val_bpt 5.6429 24.0k tok/s
+13:41:16 [BPTT]   step  200 train_loss 3.6101 val_nll 3.7637 val_bpt 5.4298 23.7k tok/s
+13:41:23 [BPTT]   step  250 train_loss 3.5840 val_nll 3.6162 val_bpt 5.2171 23.3k tok/s
+13:41:29 [BPTT]   step  300 train_loss 3.4821 val_nll 3.5228 val_bpt 5.0824 23.4k tok/s
+13:41:35 [BPTT]   step  350 train_loss 3.3376 val_nll 3.4655 val_bpt 4.9997 23.7k tok/s
+13:41:35    ↳ gen: "Once upon a time, there was a little girl named Amy. She loved to eat a small bug. Spot wanted to help his friends, a little bird named Sue. Tom was very excite…"
+13:41:42 [BPTT]   step  400 train_loss 3.3988 val_nll 3.4338 val_bpt 4.9539 23.7k tok/s
+13:41:49 [BPTT]   step  450 train_loss 3.3385 val_nll 3.3448 val_bpt 4.8255 23.5k tok/s
+13:41:55 [BPTT]   step  500 train_loss 3.2139 val_nll 3.3100 val_bpt 4.7753 23.5k tok/s
+13:42:01 [BPTT]   step  550 train_loss 3.1304 val_nll 3.2622 val_bpt 4.7063 23.7k tok/s
+13:42:08 [BPTT]   step  600 train_loss 3.3947 val_nll 3.2112 val_bpt 4.6327 23.7k tok/s
+13:42:14 [BPTT]   step  650 train_loss 3.0388 val_nll 3.2201 val_bpt 4.6457 23.6k tok/s
+13:42:21 [BPTT]   step  700 train_loss 2.9622 val_nll 3.1711 val_bpt 4.5749 23.5k tok/s
+13:42:21    ↳ gen: "Once upon a time, there lived a little boy named Tom. Tom loved to play with his friends. One day, Tim was his friends. He liked the book. One day, a man, he sa…"
+13:42:27 [BPTT]   step  750 train_loss 3.1774 val_nll 3.1193 val_bpt 4.5002 23.6k tok/s
+13:42:34 [BPTT]   step  800 train_loss 3.0424 val_nll 3.1074 val_bpt 4.4831 23.6k tok/s
+13:42:40 [BPTT]   step  850 train_loss 3.2820 val_nll 3.1183 val_bpt 4.4987 23.7k tok/s
+13:42:46 [BPTT]   step  900 train_loss 3.0909 val_nll 3.1062 val_bpt 4.4813 23.7k tok/s
+13:42:54 [BPTT]   step  950 train_loss 3.1485 val_nll 3.0762 val_bpt 4.4380 23.6k tok/s
+13:43:00 [BPTT]   step 1000 train_loss 2.9928 val_nll 3.0545 val_bpt 4.4066 23.6k tok/s
+13:43:06 [BPTT]   step 1050 train_loss 2.8128 val_nll 3.0184 val_bpt 4.3546 23.6k tok/s
+13:43:07    ↳ gen: "Once upon a time, there was a little girl named Molly. She liked to find her toy telephone. One day, she found an envelope and her toy box. He said, "Spot, can …"
+13:43:12 [BPTT]   step 1100 train_loss 2.9699 val_nll 2.9892 val_bpt 4.3124 23.7k tok/s
+13:43:19 [BPTT]   step 1150 train_loss 2.9245 val_nll 2.9789 val_bpt 4.2977 23.7k tok/s
+13:43:26 [BPTT]   step 1200 train_loss 2.7994 val_nll 3.0252 val_bpt 4.3644 23.6k tok/s
+13:43:32 [BPTT]   step 1250 train_loss 2.8007 val_nll 3.0190 val_bpt 4.3555 23.7k tok/s
+13:43:38 [BPTT]   step 1300 train_loss 2.9854 val_nll 2.9585 val_bpt 4.2682 23.8k tok/s
+13:43:44 [BPTT]   step 1350 train_loss 2.7648 val_nll 2.9868 val_bpt 4.3091 23.8k tok/s
+13:43:50 [BPTT]   step 1400 train_loss 2.8187 val_nll 2.9874 val_bpt 4.3099 23.8k tok/s
+13:43:51    ↳ gen: "Once upon a time, there was a little girl named Lily. Lily loved to play outside in the park every day. One day, Mia saw a big, small mouse. They wanted to be c…"
+13:43:57 [BPTT]   step 1450 train_loss 2.7863 val_nll 2.9467 val_bpt 4.2511 23.8k tok/s
+13:44:03 [BPTT]   step 1500 train_loss 2.7313 val_nll 2.9510 val_bpt 4.2574 23.8k tok/s
+13:44:10 [BPTT]   step 1550 train_loss 2.7359 val_nll 2.8815 val_bpt 4.1572 23.8k tok/s
+13:44:16 [BPTT]   step 1600 train_loss 2.8338 val_nll 2.9207 val_bpt 4.2137 23.9k tok/s
+13:44:23 [BPTT]   step 1650 train_loss 2.8665 val_nll 2.8990 val_bpt 4.1824 23.8k tok/s
+13:44:29 [BPTT]   step 1700 train_loss 2.7678 val_nll 2.8684 val_bpt 4.1382 23.8k tok/s
+13:44:36 [BPTT]   step 1750 train_loss 2.7198 val_nll 2.8941 val_bpt 4.1753 23.8k tok/s
+13:44:36    ↳ gen: "Once upon a time, there was a little girl named Sally. She was restless and wanted to be hungry. She asked her mom, "Why are you sad?" Her mom said, "I found a …"
+13:44:42 [BPTT]   step 1800 train_loss 2.6808 val_nll 2.9184 val_bpt 4.2104 23.8k tok/s
+13:44:48 [BPTT]   step 1850 train_loss 2.7893 val_nll 2.9010 val_bpt 4.1852 23.9k tok/s
+13:44:55 [BPTT]   step 1900 train_loss 2.8607 val_nll 2.8669 val_bpt 4.1361 23.8k tok/s
+13:45:01 [BPTT]   step 1950 train_loss 2.8244 val_nll 2.8804 val_bpt 4.1556 23.8k tok/s
+13:45:07 [BPTT]   step 2000 train_loss 2.7415 val_nll 2.8973 val_bpt 4.1799 23.9k tok/s
+13:45:14 [BPTT]   step 2050 train_loss 2.7606 val_nll 2.8399 val_bpt 4.0971 23.9k tok/s
+13:45:20 [BPTT]   step 2100 train_loss 2.7853 val_nll 2.8343 val_bpt 4.0891 23.8k tok/s
+13:45:21    ↳ gen: "Once upon a time, there was a little boy named Tim. Tim was his best friend, he loved to play outside. One day, Tim's uncle asked his mom to him. Tim asked his …"
+13:45:28 [BPTT]   step 2150 train_loss 2.8237 val_nll 2.8510 val_bpt 4.1131 23.8k tok/s
+13:45:34 [BPTT]   step 2200 train_loss 2.7546 val_nll 2.8544 val_bpt 4.1180 23.8k tok/s
+13:45:41 [BPTT]   step 2250 train_loss 2.8122 val_nll 2.8788 val_bpt 4.1533 23.8k tok/s
+13:45:47 [BPTT]   step 2300 train_loss 2.8049 val_nll 2.8170 val_bpt 4.0640 23.8k tok/s
+13:45:53 [BPTT]   step 2350 train_loss 2.8205 val_nll 2.8476 val_bpt 4.1082 23.8k tok/s
+13:46:00 [BPTT]   step 2400 train_loss 2.6218 val_nll 2.7935 val_bpt 4.0301 23.7k tok/s
+13:46:07 [BPTT]   step 2450 train_loss 2.7177 val_nll 2.8281 val_bpt 4.0801 23.7k tok/s
+13:46:07    ↳ gen: "Once upon a time, there was a little girl named Lily. Lily was a pretty ball. One day, Lily wanted to find her ball. She said, "I will see you." Mia said, "Okay…"
+13:46:13 [BPTT]   step 2500 train_loss 2.7214 val_nll 2.7978 val_bpt 4.0364 23.7k tok/s
+13:46:13    ↳ gen: "Once upon a time, there was a small, there was a little girl named Lily. Lily loved to help her friends. One day, Lily was playing with her friend, Tim. One day…"
+13:46:15 [ckpt] step 2500 -> ckpt_002500.pt

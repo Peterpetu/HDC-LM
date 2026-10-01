@@ -1,0 +1,33 @@
+{
+ "task": "delayed-recall (target = previous token's value codeword); R=1 temporal core",
+ "learning_backprop_free": true,
+ "adam_curve": {
+  "L0": 289.9129616379812,
+  "Lf": 225.0464548917736,
+  "reduction": 0.22374476249601905,
+  "monotone_aggregate": true
+ },
+ "sign_curve": {
+  "L0": 289.9129616379812,
+  "Lf": 226.57746131914791,
+  "reduction": 0.2184638450140125
+ },
+ "control": {
+  "target": {
+   "L0": 289.9129616379812,
+   "Lf": 240.47352835898522,
+   "descends": true
+  },
+  "anti": {
+   "L0": 289.9129616379812,
+   "Lf": 336.5151121490774,
+   "descends": false
+  },
+  "random": {
+   "L0": 289.9129616379812,
+   "Lf": 292.3644842732612,
+   "descends": false
+  }
+ },
+ "note": "the target signal is a valid descent direction (target down, anti up, random flat); it plateaus rather than reaching 0 -- the imperfect-signal gap measured at Gate G6. No autograd/backward anywhere in the training path."
+}

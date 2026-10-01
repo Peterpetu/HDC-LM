@@ -1,0 +1,14 @@
+{
+  "run_name": "ripple_S5",
+  "last_step": 2500,
+  "total_steps": 2500,
+  "elapsed_s": 714.9,
+  "eta_s": 0.0,
+  "records": 64,
+  "latest": {
+    "step": 2500,
+    "tag": "sample",
+    "elapsed_s": 714.94,
+    "sample": "Once upon a time, there was a small, there lived a little girl named Mia lived in a small house with many trees. The bear was very pretty. He was very excited. "
+  }
+}

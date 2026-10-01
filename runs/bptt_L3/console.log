@@ -1,0 +1,36 @@
+13:21:32 [run:bptt_L3] dir=runs\bptt_L3 src=084432486f123956
+13:21:32 [BPTT] params=1.29M
+13:21:33 [BPTT]   step    1 train_loss 9.0230 val_nll 9.0243 val_bpt 13.0193 1.2k tok/s
+13:21:40 [BPTT]   step   25 train_loss 7.8397 val_nll 6.6563 val_bpt 9.6031 5.1k tok/s
+13:21:46 [BPTT]   step   50 train_loss 5.7181 val_nll 5.8622 val_bpt 8.4574 5.4k tok/s
+13:21:54 [BPTT]   step   75 train_loss 5.3782 val_nll 5.4625 val_bpt 7.8807 5.2k tok/s
+13:22:01 [BPTT]   step  100 train_loss 4.8772 val_nll 4.9952 val_bpt 7.2065 5.3k tok/s
+13:22:08 [BPTT]   step  125 train_loss 4.4335 val_nll 4.7278 val_bpt 6.8208 5.3k tok/s
+13:22:15 [BPTT]   step  150 train_loss 4.3554 val_nll 4.5551 val_bpt 6.5717 5.4k tok/s
+13:22:22 [BPTT]   step  175 train_loss 4.2914 val_nll 4.3211 val_bpt 6.2340 5.4k tok/s
+13:22:30 [BPTT]   step  200 train_loss 4.0564 val_nll 4.2349 val_bpt 6.1096 5.3k tok/s
+13:22:36 [BPTT]   step  225 train_loss 4.0296 val_nll 4.2081 val_bpt 6.0709 5.4k tok/s
+13:22:43 [BPTT]   step  250 train_loss 4.1463 val_nll 4.1381 val_bpt 5.9701 5.4k tok/s
+13:22:49 [BPTT]   step  275 train_loss 4.0790 val_nll 4.0672 val_bpt 5.8677 5.5k tok/s
+13:22:56 [BPTT]   step  300 train_loss 3.7573 val_nll 4.0440 val_bpt 5.8343 5.5k tok/s
+13:23:03 [BPTT]   step  325 train_loss 3.7363 val_nll 3.9906 val_bpt 5.7572 5.5k tok/s
+13:23:10 [BPTT]   step  350 train_loss 3.8700 val_nll 3.9517 val_bpt 5.7011 5.5k tok/s
+13:23:17 [BPTT]   step  375 train_loss 3.9044 val_nll 3.9141 val_bpt 5.6469 5.5k tok/s
+13:23:24 [BPTT]   step  400 train_loss 3.7412 val_nll 3.8574 val_bpt 5.5650 5.5k tok/s
+13:23:32 [BPTT]   step  425 train_loss 3.8431 val_nll 3.8749 val_bpt 5.5903 5.5k tok/s
+13:23:39 [BPTT]   step  450 train_loss 3.9391 val_nll 3.8028 val_bpt 5.4862 5.5k tok/s
+13:23:46 [BPTT]   step  475 train_loss 3.8480 val_nll 3.8050 val_bpt 5.4894 5.4k tok/s
+13:23:53 [BPTT]   step  500 train_loss 3.6340 val_nll 3.7426 val_bpt 5.3995 5.4k tok/s
+13:24:00 [BPTT]   step  525 train_loss 3.6789 val_nll 3.7679 val_bpt 5.4359 5.5k tok/s
+13:24:07 [BPTT]   step  550 train_loss 3.7033 val_nll 3.7071 val_bpt 5.3482 5.5k tok/s
+13:24:14 [BPTT]   step  575 train_loss 3.5852 val_nll 3.7082 val_bpt 5.3498 5.5k tok/s
+13:24:20 [BPTT]   step  600 train_loss 3.5892 val_nll 3.7079 val_bpt 5.3494 5.5k tok/s
+13:24:27 [BPTT]   step  625 train_loss 3.7583 val_nll 3.6753 val_bpt 5.3024 5.5k tok/s
+13:24:34 [BPTT]   step  650 train_loss 3.6592 val_nll 3.6897 val_bpt 5.3231 5.5k tok/s
+13:24:41 [BPTT]   step  675 train_loss 3.3983 val_nll 3.6261 val_bpt 5.2314 5.5k tok/s
+13:24:47 [BPTT]   step  700 train_loss 3.5790 val_nll 3.5856 val_bpt 5.1729 5.5k tok/s
+13:24:54 [BPTT]   step  725 train_loss 3.4367 val_nll 3.6180 val_bpt 5.2196 5.5k tok/s
+13:25:01 [BPTT]   step  750 train_loss 3.6261 val_nll 3.5499 val_bpt 5.1215 5.5k tok/s
+13:25:08 [BPTT]   step  775 train_loss 3.5078 val_nll 3.5570 val_bpt 5.1317 5.5k tok/s
+13:25:15 [BPTT]   step  800 train_loss 3.7170 val_nll 3.6052 val_bpt 5.2012 5.5k tok/s
+13:25:17 [ckpt] step 800 -> ckpt_000800.pt

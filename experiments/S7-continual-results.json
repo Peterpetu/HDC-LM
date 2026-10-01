@@ -1,0 +1,401 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "summary": {
+    "naive": {
+      "avg_final_loss": [
+        6.68897008895874,
+        0.1328563690185547
+      ],
+      "avg_forgetting": [
+        8.03566837310791,
+        0.19683611392974854
+      ],
+      "backward_transfer": [
+        -8.03566837310791,
+        0.19683611392974854
+      ],
+      "avg_excess_over_bayes": [
+        5.480796813964844,
+        0.1328561007976532
+      ]
+    },
+    "gate": {
+      "avg_final_loss": [
+        6.327807903289795,
+        0.19802463054656982
+      ],
+      "avg_forgetting": [
+        7.449202060699463,
+        0.2903304994106293
+      ],
+      "backward_transfer": [
+        -7.449202060699463,
+        0.2903304994106293
+      ],
+      "avg_excess_over_bayes": [
+        5.119634628295898,
+        0.19802434742450714
+      ]
+    },
+    "replay": {
+      "avg_final_loss": [
+        2.360980272293091,
+        0.11945682764053345
+      ],
+      "avg_forgetting": [
+        1.2650254964828491,
+        0.23050041496753693
+      ],
+      "backward_transfer": [
+        -1.2650254964828491,
+        0.23050041496753693
+      ],
+      "avg_excess_over_bayes": [
+        1.1528072357177734,
+        0.11945687234401703
+      ]
+    },
+    "replay_gate": {
+      "avg_final_loss": [
+        2.325181007385254,
+        0.07950447499752045
+      ],
+      "avg_forgetting": [
+        1.123197078704834,
+        0.16792289912700653
+      ],
+      "backward_transfer": [
+        -1.123197078704834,
+        0.16792289912700653
+      ],
+      "avg_excess_over_bayes": [
+        1.117008090019226,
+        0.07950438559055328
+      ]
+    },
+    "bptt_naive": {
+      "avg_final_loss": [
+        6.616976261138916,
+        0.16891856491565704
+      ],
+      "avg_forgetting": [
+        7.927221775054932,
+        0.25110289454460144
+      ],
+      "backward_transfer": [
+        -7.927221775054932,
+        0.25110289454460144
+      ],
+      "avg_excess_over_bayes": [
+        5.408803462982178,
+        0.16891856491565704
+      ]
+    },
+    "bptt_replay": {
+      "avg_final_loss": [
+        2.1726438999176025,
+        0.0787033811211586
+      ],
+      "avg_forgetting": [
+        0.9987851977348328,
+        0.15405277907848358
+      ],
+      "backward_transfer": [
+        -0.9987851977348328,
+        0.15405277907848358
+      ],
+      "avg_excess_over_bayes": [
+        0.9644710421562195,
+        0.07870335876941681
+      ]
+    }
+  },
+  "per_seed": {
+    "naive": [
+      {
+        "avg_final_loss": 6.84178285797437,
+        "avg_forgetting": 8.26253242790699,
+        "backward_transfer": -8.26253242790699,
+        "avg_excess_over_bayes": 5.633609821399053,
+        "final_per_domain": [
+          10.3586,
+          8.7952,
+          1.3715
+        ],
+        "forgetting_per_domain": [
+          9.0926,
+          7.4324
+        ]
+      },
+      {
+        "avg_final_loss": 6.600863056878249,
+        "avg_forgetting": 7.910224217921495,
+        "backward_transfer": -7.910224217921495,
+        "avg_excess_over_bayes": 5.392690020302932,
+        "final_per_domain": [
+          10.2434,
+          8.1812,
+          1.378
+        ],
+        "forgetting_per_domain": [
+          8.9839,
+          6.8366
+        ]
+      },
+      {
+        "avg_final_loss": 6.6242634405692415,
+        "avg_forgetting": 7.934250734746456,
+        "backward_transfer": -7.934250734746456,
+        "avg_excess_over_bayes": 5.416090403993924,
+        "final_per_domain": [
+          10.1177,
+          8.3712,
+          1.3839
+        ],
+        "forgetting_per_domain": [
+          8.85,
+          7.0185
+        ]
+      }
+    ],
+    "gate": [
+      {
+        "avg_final_loss": 6.5564292048414545,
+        "avg_forgetting": 7.7843635417521,
+        "backward_transfer": -7.7843635417521,
+        "avg_excess_over_bayes": 5.348256168266137,
+        "final_per_domain": [
+          10.1689,
+          8.0875,
+          1.4128
+        ],
+        "forgetting_per_domain": [
+          8.8789,
+          6.6898
+        ]
+      },
+      {
+        "avg_final_loss": 6.217091165482998,
+        "avg_forgetting": 7.288079459220171,
+        "backward_transfer": -7.288079459220171,
+        "avg_excess_over_bayes": 5.0089181289076805,
+        "final_per_domain": [
+          9.6534,
+          7.5858,
+          1.4121
+        ],
+        "forgetting_per_domain": [
+          8.3701,
+          6.206
+        ]
+      },
+      {
+        "avg_final_loss": 6.209903265039126,
+        "avg_forgetting": 7.275162514299154,
+        "backward_transfer": -7.275162514299154,
+        "avg_excess_over_bayes": 5.001730228463809,
+        "final_per_domain": [
+          9.4353,
+          7.7843,
+          1.4101
+        ],
+        "forgetting_per_domain": [
+          8.1451,
+          6.4052
+        ]
+      }
+    ],
+    "replay": [
+      {
+        "avg_final_loss": 2.4549676006038985,
+        "avg_forgetting": 1.4307241700589657,
+        "backward_transfer": -1.4307241700589657,
+        "avg_excess_over_bayes": 1.246794564028581,
+        "final_per_domain": [
+          3.0246,
+          2.7193,
+          1.621
+        ],
+        "forgetting_per_domain": [
+          1.7492,
+          1.1122
+        ]
+      },
+      {
+        "avg_final_loss": 2.2265525038043656,
+        "avg_forgetting": 1.0017920210957527,
+        "backward_transfer": -1.0017920210957527,
+        "avg_excess_over_bayes": 1.0183794672290485,
+        "final_per_domain": [
+          2.3862,
+          2.4131,
+          1.8803
+        ],
+        "forgetting_per_domain": [
+          1.1204,
+          0.8832
+        ]
+      },
+      {
+        "avg_final_loss": 2.4014207969109216,
+        "avg_forgetting": 1.3625601008534431,
+        "backward_transfer": -1.3625601008534431,
+        "avg_excess_over_bayes": 1.1932477603356044,
+        "final_per_domain": [
+          2.7614,
+          2.7812,
+          1.6616
+        ],
+        "forgetting_per_domain": [
+          1.4879,
+          1.2372
+        ]
+      }
+    ],
+    "replay_gate": [
+      {
+        "avg_final_loss": 2.38826230665048,
+        "avg_forgetting": 1.2415810711681843,
+        "backward_transfer": -1.2415810711681843,
+        "avg_excess_over_bayes": 1.1800892700751622,
+        "final_per_domain": [
+          2.857,
+          2.5884,
+          1.7194
+        ],
+        "forgetting_per_domain": [
+          1.5584,
+          0.9248
+        ]
+      },
+      {
+        "avg_final_loss": 2.2358778367439904,
+        "avg_forgetting": 0.9310125410556793,
+        "backward_transfer": -0.9310125410556793,
+        "avg_excess_over_bayes": 1.0277048001686733,
+        "final_per_domain": [
+          2.3457,
+          2.3782,
+          1.9838
+        ],
+        "forgetting_per_domain": [
+          1.0566,
+          0.8054
+        ]
+      },
+      {
+        "avg_final_loss": 2.3514031395316124,
+        "avg_forgetting": 1.1969976834952831,
+        "backward_transfer": -1.1969976834952831,
+        "avg_excess_over_bayes": 1.143230102956295,
+        "final_per_domain": [
+          2.6187,
+          2.6593,
+          1.7763
+        ],
+        "forgetting_per_domain": [
+          1.3262,
+          1.0678
+        ]
+      }
+    ],
+    "bptt_naive": [
+      {
+        "avg_final_loss": 6.810345366597176,
+        "avg_forgetting": 8.215336505323648,
+        "backward_transfer": -8.215336505323648,
+        "avg_excess_over_bayes": 5.602172330021858,
+        "final_per_domain": [
+          10.6523,
+          8.4021,
+          1.3766
+        ],
+        "forgetting_per_domain": [
+          9.3869,
+          7.0438
+        ]
+      },
+      {
+        "avg_final_loss": 6.498158998787403,
+        "avg_forgetting": 7.754967167973518,
+        "backward_transfer": -7.754967167973518,
+        "avg_excess_over_bayes": 5.289985962212086,
+        "final_per_domain": [
+          10.0,
+          8.1162,
+          1.3782
+        ],
+        "forgetting_per_domain": [
+          8.7436,
+          6.7663
+        ]
+      },
+      {
+        "avg_final_loss": 6.542425309618314,
+        "avg_forgetting": 7.811362288892269,
+        "backward_transfer": -7.811362288892269,
+        "avg_excess_over_bayes": 5.334252273042996,
+        "final_per_domain": [
+          10.0755,
+          8.1682,
+          1.3836
+        ],
+        "forgetting_per_domain": [
+          8.8132,
+          6.8095
+        ]
+      }
+    ],
+    "bptt_replay": [
+      {
+        "avg_final_loss": 2.2418479969104133,
+        "avg_forgetting": 1.1183428466320038,
+        "backward_transfer": -1.1183428466320038,
+        "avg_excess_over_bayes": 1.0336749603350956,
+        "final_per_domain": [
+          2.6724,
+          2.4277,
+          1.6254
+        ],
+        "forgetting_per_domain": [
+          1.3988,
+          0.8379
+        ]
+      },
+      {
+        "avg_final_loss": 2.087029032409191,
+        "avg_forgetting": 0.8249373435974121,
+        "backward_transfer": -0.8249373435974121,
+        "avg_excess_over_bayes": 0.8788559958338737,
+        "final_per_domain": [
+          2.2034,
+          2.2416,
+          1.8161
+        ],
+        "forgetting_per_domain": [
+          0.9417,
+          0.7082
+        ]
+      },
+      {
+        "avg_final_loss": 2.1890550702810287,
+        "avg_forgetting": 1.0530752502381802,
+        "backward_transfer": -1.0530752502381802,
+        "avg_excess_over_bayes": 0.9808820337057114,
+        "final_per_domain": [
+          2.4551,
+          2.4509,
+          1.6612
+        ],
+        "forgetting_per_domain": [
+          1.1873,
+          0.9188
+        ]
+      }
+    ]
+  }
+}

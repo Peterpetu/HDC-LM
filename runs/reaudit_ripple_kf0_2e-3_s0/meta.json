@@ -1,0 +1,60 @@
+{
+  "run_name": "reaudit_ripple_kf0_2e-3_s0",
+  "config": {
+    "model": {
+      "vocab_size": 8192,
+      "d_model": 128,
+      "n_layers": 1,
+      "n_heads": 4,
+      "P": null,
+      "beta": 1.0,
+      "beta_readout": 6.0,
+      "beta_n": 0.05,
+      "n_settle": 20,
+      "eta": 0.3,
+      "rope_base": 10000.0,
+      "gamma_min": 0.0,
+      "gamma_max": 0.99,
+      "delta_rule": false,
+      "key_full": false,
+      "deep_supervision": true,
+      "depth_mode": "L0",
+      "gate_g0": 1.0,
+      "gate_g1": 0.5,
+      "gate_lo": 0.1,
+      "gate_hi": 3.0,
+      "gate_ema": 0.01
+    },
+    "train": {
+      "steps": 800,
+      "batch": 24,
+      "seq_len": 64,
+      "lr": 0.002,
+      "warmup": 30,
+      "grad_clip": 1.0,
+      "eval_every": 50,
+      "eval_iters": 20,
+      "diag_every": 100000,
+      "gen_every": 0,
+      "gen_prompt": "Once upon a time",
+      "gen_new": 40,
+      "ckpt_every": 0,
+      "seed": 0,
+      "device": "cuda",
+      "runs_dir": "runs"
+    }
+  },
+  "env": {
+    "seed": 0,
+    "python": "3.11.2",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "2.7.1+cu118",
+    "cuda_available": true,
+    "source_hash": "a6b55425976e4fa9",
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+    "cuda": "11.8",
+    "gpu_total_mem_MB": 17171.0
+  },
+  "total_steps": 800,
+  "start_unix": 1784185702.0429022
+}

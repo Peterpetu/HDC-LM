@@ -1,0 +1,7 @@
+{
+  "steps": 2500,
+  "ripple_val_nll": 3.1515405893325807,
+  "bptt_val_nll": 2.794815069437027,
+  "gap_fraction": 0.12763832705661293,
+  "P2_within_20pct": true
+}

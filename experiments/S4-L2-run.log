@@ -1,0 +1,19 @@
+=== S4 faithful config ===
+model: RLMConfig(vocab_size=8192, d_model=128, n_layers=2, n_heads=4, P=None, beta=1.0, beta_readout=6.0, beta_n=0.05, n_settle=25, eta=0.3, rope_base=10000.0, gamma_min=0.0, gamma_max=0.99, delta_rule=False, key_full=True, deep_supervision=True, gate_g0=1.0, gate_g1=0.5, gate_lo=0.1, gate_hi=3.0, gate_ema=0.01)
+train: TrainConfig(steps=600, batch=16, seq_len=96, lr=0.003, grad_clip=1.0, eval_every=25, eval_iters=20, diag_every=100, ckpt_every=0, seed=0, device='cuda', runs_dir='runs')
+
+=== BPTT twin (L2) ===
+12:38:20 [run:bptt_L2] dir=runs\bptt_L2 src=3aad0be8ce018fe7
+12:38:20 [BPTT] params=1.21M
+12:38:22 [BPTT]   step    1 train_loss 9.1355 val_nll 8.9878 val_bpt 12.9666 0.8k tok/s
+12:38:32 [BPTT]   step   25 train_loss 8.0987 val_nll 9.4825 val_bpt 13.6804 3.2k tok/s
+12:38:41 [BPTT]   step   50 train_loss 7.6454 val_nll 8.0746 val_bpt 11.6491 3.6k tok/s
+12:38:50 [BPTT]   step   75 train_loss 8.7295 val_nll 10.9809 val_bpt 15.8421 3.8k tok/s
+12:39:00 [BPTT]   step  100 train_loss 8.0636 val_nll 7.8433 val_bpt 11.3155 3.8k tok/s
+12:39:10 [BPTT]   step  125 train_loss 13.7824 val_nll 8.3818 val_bpt 12.0924 3.9k tok/s
+12:39:19 [BPTT]   step  150 train_loss 8.7341 val_nll 7.3858 val_bpt 10.6554 3.9k tok/s
+12:39:28 [BPTT]   step  175 train_loss 7.7462 val_nll 8.8082 val_bpt 12.7075 4.0k tok/s
+12:39:37 [BPTT]   step  200 train_loss 9.8437 val_nll 16.5827 val_bpt 23.9237 4.0k tok/s
+12:39:46 [BPTT]   step  225 train_loss 9.0775 val_nll 10.7806 val_bpt 15.5532 4.0k tok/s
+12:39:56 [BPTT]   step  250 train_loss 9.5771 val_nll 10.4200 val_bpt 15.0328 4.0k tok/s
+12:40:05 [BPTT]   step  275 train_loss 10.0892 val_nll 10.0585 val_bpt 14.5113 4.0k tok/s
