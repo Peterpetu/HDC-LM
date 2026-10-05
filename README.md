@@ -63,6 +63,21 @@ python experiments/l1vf_capability.py           # the space-time relaxation capa
 
 The Pile experiments read the NCALM token cache (`wavenn/pile_data.py`, `NCALM_ROOT` environment variable); see the [NCALM repository](https://github.com/Peterpetu/NCALM) for how that cache is built.
 
-## License
+## License and citation
 
-MIT.
+The code and any released weights are licensed under the Apache License 2.0 (`LICENSE`); the documentation, figures and data under CC BY 4.0. Both require attribution: a copy or derivative of the code keeps the `NOTICE` file, and any reuse of the text, figures or data credits the author and links to the source.
+
+If you use this work, build on it, or report results obtained with it, cite it:
+
+> Lahtinen, P. (2026). *HDC-LM: backprop-free credit assignment for a gated linear-attention language model.* https://github.com/Peterpetu/HDC-LM
+
+```bibtex
+@misc{lahtinen2026hdc,
+  author = {Lahtinen, Peter},
+  title  = {HDC-LM: backprop-free credit assignment for a gated linear-attention language model},
+  year   = {2026},
+  url    = {https://github.com/Peterpetu/HDC-LM}
+}
+```
+
+`CITATION.cff` carries the same reference for GitHub's "Cite this repository" button and for reference managers.
